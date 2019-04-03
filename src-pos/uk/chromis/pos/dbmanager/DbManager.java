@@ -68,6 +68,7 @@ public class DbManager {
     public boolean DBChecks() {
 
         // if this is not a new setup then there should be a properties file
+    	
         File file = new File(System.getProperty("user.home"), AppLocal.APP_ID + ".properties");
         if (!file.exists()) {
             //properties file does not exists - test for embedded first as this does not require properties file if everything is default
@@ -110,6 +111,9 @@ public class DbManager {
                 }
             }
             while (!testResult) {
+            	System.out.println(System.getProperty("user.home"));
+            	System.out.println("=========================");
+            	System.out.println(AppLocal.getIntString("message.retryorconfig"));
                 JOpenWarningDlg wDlg = new JOpenWarningDlg("Database connection error", AppLocal.getIntString("message.retryorconfig"), true, true);
                 wDlg.setModal(true);
                 wDlg.setVisible(true);

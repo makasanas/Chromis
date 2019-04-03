@@ -37,7 +37,7 @@ public class AppLocal {
 
     static {
         m_resources = new LocaleResources();
-      //  m_resources.addBundleName("epos_messages");
+        m_resources.addBundleName("epos_messages");
         m_resources.addBundleName("pos_messages");
         m_resources.addBundleName("erp_messages");
         m_resources.addBundleName("permissions_messages");

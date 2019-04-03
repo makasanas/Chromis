@@ -158,7 +158,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
             jpayinterface.getComponent().applyComponentOrientation(getComponentOrientation());
             m_jTabPayment.addTab(
-                    AppLocal.getIntString(jpay.getLabelKey()),
+                    jpay.getLabelKey().toString(),
                     new javax.swing.ImageIcon(getClass().getResource(jpay.getIconKey())),
                     jpayinterface.getComponent());
         }
@@ -189,7 +189,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.cash";
+            return "cash";
         }
 
         @Override
@@ -212,7 +212,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.cheque";
+            return "cheque";
         }
 
         @Override
@@ -235,7 +235,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.paper";
+            return "paper";
         }
 
         @Override
@@ -258,7 +258,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.custom";
+            return "Bix Coins";
         }
 
         @Override
@@ -281,7 +281,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.magcard";
+            return "magcard";
         }
 
         @Override
@@ -304,7 +304,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.free";
+            return "free";
         }
 
         @Override
@@ -327,7 +327,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.debt";
+            return "debt";
         }
 
         @Override
@@ -350,7 +350,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.cashrefund";
+            return "cashrefund";
         }
 
         @Override
@@ -373,7 +373,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.chequerefund";
+            return "chequerefund";
         }
 
         @Override
@@ -396,7 +396,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.paper";
+            return "paper";
         }
 
         @Override
@@ -419,7 +419,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.custom";
+            return "custom";
         }
 
         @Override
@@ -442,7 +442,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.magcard";
+            return "magcard";
         }
 
         @Override
@@ -465,7 +465,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         @Override
         public String getLabelKey() {
-            return "tab.bank";
+            return "Bank Account";
         }
 
         @Override

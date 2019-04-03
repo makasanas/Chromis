@@ -29,9 +29,9 @@ public class Connect {
     public Connect() {
         createPanel();
         frame = new JFrame();
-        frame.setUndecorated(true);
-        frame.add(connectPanel, BorderLayout.CENTER);
-        frame.setSize(190, 50);
+//        frame.setUndecorated(true);
+//        frame.add(connectPanel, BorderLayout.CENTER);
+//        frame.setSize(190, 50);
         frame.setLocationRelativeTo(null);
         frame.setUndecorated(true);
         frame.setResizable(false);

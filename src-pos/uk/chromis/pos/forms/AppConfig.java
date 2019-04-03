@@ -241,7 +241,6 @@ public class AppConfig implements AppProperties {
         m_propsconfig.setProperty("paper.standard.width", "451");
         m_propsconfig.setProperty("paper.standard.height", "698");
         m_propsconfig.setProperty("paper.standard.mediasizename", "A4");
-
         m_propsconfig.setProperty("machine.uniqueinstance", "false");
         m_propsconfig.setProperty("screen.receipt.columns", "42");
 
